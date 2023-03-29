@@ -11,27 +11,38 @@ Este bot esta diseñado exclusivamente para el servidor de discord de Kema-Mada
 
 ## Run Locally
 
-Clone the project
+Instala GIT en Termux
 
 ```bash
-  git clone https://link-to-project
+  pkg install git
 ```
 
-Go to the project directory
+Clona el proyecto en termux con el siguiente comando
 
 ```bash
-  cd my-project
+  git clone https://github.com/loonbac/Kema-Bot.git
 ```
 
-Install dependencies
+Actualiza la base de repositorios de Termux
 
 ```bash
-  npm install
+  pkg update && pkg upgrade
 ```
 
-Start the server
+Instala Python para poder ejecutar el codigo
 
 ```bash
-  npm run start
+  pkg install python
 ```
 
+Instala las librerias necesarias para ejecutar al bot
+
+```bash
+  pkg install libffi libffi-dev openssl openssl-dev clang build-essential
+```
+
+Instala por ultimo la libreria discord.py
+
+```bash
+  pip install discord.py
+```
