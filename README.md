@@ -46,3 +46,9 @@ Clona el proyecto en termux con el siguiente comando
 ```bash
   git clone https://github.com/loonbac/Kema-Bot.git
 ```
+
+Ejecuta el Bot con el siguiente comando en Termux
+
+```bash
+  python Kema-Bot/main.py
+```
