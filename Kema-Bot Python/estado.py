@@ -27,4 +27,4 @@ async def on_ready():
     client.loop.create_task(cambiar_estado())
 
 # Inicia el bot
-client.run('MTA5MDA3NDExODA3NTk5MDAyNg.GIMZfS.jQmIIWiKg9z1m0LN1m1SVdAWdcn79E50cWdqTY')
+client.run('LLAVE_SECRETA')

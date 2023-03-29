@@ -36,4 +36,4 @@ async def count(ctx):
     await ctx.send(f"No se encontró el rol con el ID {role_id}.")
 
 # Ejecutar el bot con tu token
-bot.run("MTA5MDA3NDExODA3NTk5MDAyNg.GIMZfS.jQmIIWiKg9z1m0LN1m1SVdAWdcn79E50cWdqTY")
+bot.run("LLAVE_SECRETA")

@@ -25,4 +25,4 @@ async def on_member_update(before, after):
             channel = bot.get_channel(message_channel_id)
             await channel.send(message)
 
-bot.run("MTA5MDA3NDExODA3NTk5MDAyNg.GIMZfS.jQmIIWiKg9z1m0LN1m1SVdAWdcn79E50cWdqTY")
+bot.run("LLAVE_SECRETA")

@@ -20,4 +20,4 @@ async def on_message(message):
             channel = client.get_channel(channel_id)
             await channel.send("No olviden leer el canal <#1050458845794799711> y el canal <#1050457764503240765>, así sabrán que cosa hacer y lo ultimo en cheats y mas :O")
 
-client.run("")
+client.run("LLAVE_SECRETA")

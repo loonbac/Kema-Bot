@@ -48,4 +48,4 @@ async def on_message(message):
 
     await client.process_commands(message)
   
-client.run("MTA5MDA3NDExODA3NTk5MDAyNg.GIMZfS.jQmIIWiKg9z1m0LN1m1SVdAWdcn79E50cWdqTY")
+client.run("LLAVE_SECRETA")
