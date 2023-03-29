@@ -37,10 +37,6 @@ Instalar la biblioteca Discord.py:
 pip install discord.py
 ```
 
-Instalar la biblioteca Discord.py:
-```bash
-pip install discord.py
-```
 Discord.py requiere algunas dependencias adicionales para funcionar correctamente. Asegúrate de tenerlas instaladas en tu dispositivo antes de ejecutar cualquier código. Puedes instalarlas utilizando el siguiente comando:
 ```bash
 pip install -U discord.py[voice]
