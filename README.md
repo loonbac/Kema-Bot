@@ -17,38 +17,3 @@ Instala GIT en Termux
   pkg install git
 ```
 
-Actualiza la base de repositorios de Termux
-
-```bash
-  pkg update && pkg upgrade
-```
-
-Instala las librerias necesarias para ejecutar al bot
-
-```bash
-  pkg install libffi libffi-dev openssl openssl-dev clang build-essential
-```
-
-Instala Python para poder ejecutar el codigo
-
-```bash
-  pkg install python
-```
-
-Instala por ultimo la libreria discord.py
-
-```bash
-  pip install discord.py
-```
-
-Clona el proyecto en termux con el siguiente comando
-
-```bash
-  git clone https://github.com/loonbac/Kema-Bot.git
-```
-
-Ejecuta el Bot con el siguiente comando en Termux
-
-```bash
-  python Kema-Bot/main.py
-```
