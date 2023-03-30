@@ -13,10 +13,10 @@ Este bot esta diseñado exclusivamente para el servidor de discord de Kema-Mada
 
  - [Descargar Termux](https://play.google.com/store/apps/details?id=com.termux)
  - [Link al server de Discord](https://discord.gg/3rmVNzrRwf)
-  - [Link de descarga del Bot](https://github.com/loonbac/Kema-Bot/releases)
+ - [Link de descarga del Bot](https://github.com/loonbac/Kema-Bot/releases)
 
 
-## Preparacion de Termux
+## Preparacion y uso en Termux
 
 Para poder usar este bot con Termux.
 
@@ -32,19 +32,6 @@ Escriba el siguiente comando para instalar Python:
 pkg install python
 ```
 
-Instalar la biblioteca Discord.py:
-```bash
-pip install discord.py
-```
-
-Discord.py requiere algunas dependencias adicionales para funcionar correctamente. Asegúrate de tenerlas instaladas en tu dispositivo antes de ejecutar cualquier código. Puedes instalarlas utilizando el siguiente comando:
-```bash
-pip install -U discord.py[voice]
-```
-
-## Uso en Termux
-Para ejecutar este bot en Termux
-
 Asegurese de que Termux tiene permisos para leer los archivos de su dispositivo con este comando:
 ```bash
 termux-setup-storage
@@ -55,7 +42,12 @@ Navegue por los archivos de su dispositivo con el comando cd. Por ejemplo, si el
 cd storage/downloads/Kema-Bot
 ```
 
-Una vez que estés en el directorio correcto, puedes ejecutar el bot de Discord utilizando el siguiente comando:
+Una vez que estés en el directorio correcto, ejecute el siguiente comando para instalar las dependencias:
+```bash
+pip install -r kema.txt
+```
+
+Una vez que terminada la instalacion, puedes ejecutar el bot de Discord utilizando el siguiente comando:
 ```bash
 python main.py
 ```
